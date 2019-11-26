@@ -10,7 +10,7 @@ collections:
     fields:
     - { label: "Project Name", name: "project-name", widget: "string"}
     - { label: "Description", name: "project-description", widget: "string"}
-    - { label: "Status", name: "project-status", widget: "select", options: ["Design", "UX", "Dev"]}
+    - { label: "Status", name: "project-status", widget: "select", options: ["In Progress", "Update Required", "Finished"]}
   - name: "pages"
     label: "Pages"
     files:

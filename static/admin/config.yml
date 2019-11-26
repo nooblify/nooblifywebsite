@@ -5,7 +5,8 @@ media_folder: static/img
 collections:
   - name: "projects"
     label: "Projects"
-    folder: "_posts/blog"
+    create: true
+    folder: "content"
     fields:
     - { label: "Project Name", name: "project-name", widget: "string"}
     - { label: "Description", name: "project-description", widget: "string"}

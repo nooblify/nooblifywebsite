@@ -1,11 +1,12 @@
 import React, { Component } from 'react'
 import content from '../content/home.md';
+import Layout from '../components/MyLayout.js'
 
-import '../styles/index.css'
 export default class Home extends Component {
   render() {
     let { html , attributes:{ title, cats } } = content;
     return (
+      <Layout>
       <article>
           <h1 className="text-purple-500 leading-normal">{title}</h1>
           <div dangerouslySetInnerHTML={{ __html: html }}/>
@@ -18,6 +19,7 @@ export default class Home extends Component {
               ))}
           </ul>
       </article>
+      </Layout>
     )
   }
 }

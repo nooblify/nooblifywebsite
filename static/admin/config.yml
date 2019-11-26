@@ -7,7 +7,7 @@ collections:
     label: "Projects"
     create: true
     folder: "content"
-    identifier_field: name
+    identifier_field: project-name
     fields:
     - { label: "Project Name", name: "project-name", widget: "string"}
     - { label: "Description", name: "project-description", widget: "string"}

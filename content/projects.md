@@ -1,10 +1,12 @@
 ---
 title: Projects
 description: A list of mini web projects
-project details:
-  - project-description: '234'
-    project-name: To Do List
+projects:
+  - project-description: Description 1
+    project-name: Project 1
+    project-status: In Progress
+  - project-description: Description 2
+    project-name: Project 2
     project-status: Update Required
-    title: To Do List
 ---
 

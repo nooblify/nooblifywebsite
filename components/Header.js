@@ -6,7 +6,7 @@ const linkStyle = {
 
 const Header = () => (
   <div>
-      <Link href="/">
+    <Link href="/">
       <div className="border-t-4 border-noobblue-500">
         <div className="flex container py-3 mx-auto">
             <div className="flex-1 ">

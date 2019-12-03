@@ -8,6 +8,7 @@ import { faDotCircle } from '@fortawesome/free-solid-svg-icons';
 export default class Home extends Component {
   render() {
     let { html , attributes:{ title, projects } } = content;
+    this.State = { status: 'inProgress' }
     return (
       <Layout>
         <div className="container mx-auto">
@@ -64,18 +65,19 @@ export default class Home extends Component {
             </div>
           </section>
           <section>
-            <h2 class="font-semibold text-4xl text-noob-dark font-noobheading my-6 mx-2">Projects</h2>
-            <div class="flex flex-wrap text-noob-dark">
+            <h2 className="font-semibold text-4xl text-noob-dark font-noobheading my-6 mx-2">Projects</h2>
+            <div className="flex flex-wrap text-noob-dark">
               { projects.map((project, k) => (
-                <div class="flex w-full lg:w-1/3 py-2 lg:p-2" key={k}>
-                  <div class="flex flex-col w-full bg-white rounded-lg px-4 py-6 shadow-2xl">
-                    <p class="py-2">
-                      <span class="text-blue-600 bg-blue-100 mx-2 px-2 py-1 font-bold rounded uppercase text-sm">{project.status}</span>
+                <div className="flex w-full lg:w-1/3 py-2 lg:p-2" key={k}>
+                  <div className="flex flex-col w-full bg-white rounded-lg px-4 py-6 shadow-2xl">
+                    <p className="py-2">
+                      {/* <span className={"text-blue-600 bg-blue-100 mx-2 px-2 py-1 font-bold rounded uppercase text-sm"}>{project.status}</span> */}
+                      <span className={"mx-2 px-2 py-1 font-bold rounded uppercase text-sm " + ((project.status == 'In Progress') ? ' text-blue-600 bg-blue-100' : '') + ((project.status == 'Update Required') ? ' text-red-600 bg-red-200' : '') + ((project.status == 'Finished') ? ' text-green-600 bg-green-200' : '')}>{project.status}</span>
                     </p>
-                    <h3 class="text-2xl font-semibold font-noobheading ml-3 py-2">
+                    <h3 className="text-2xl font-semibold font-noobheading ml-3 py-2">
                       {project.name}
                     </h3>
-                    <p class="ml-3">
+                    <p className="ml-3">
                       {project.description}
                     </p>
                   </div>

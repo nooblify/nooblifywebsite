@@ -14,5 +14,8 @@ projects:
   - description: Description 4
     name: Project 4
     status: Update Required
+  - description: Description 4
+    name: Project 4
+    status: Finished
 ---
 

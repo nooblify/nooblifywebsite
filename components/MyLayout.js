@@ -8,14 +8,12 @@ function initializeReactGA() {
 }
 export default function Layout(props) {
   return (
-    <html>
-      <div className="bg-noobblue-100">
-        <Header />
-        <div className="min-h-screen">
-        {props.children}
-        </div>
-        <Footer />
+    <div className="bg-noobblue-100">
+      <Header />
+      <div className="min-h-screen">
+      {props.children}
       </div>
-    </html>
+      <Footer />
+    </div>
   )
 }

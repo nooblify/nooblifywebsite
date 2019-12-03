@@ -11,35 +11,29 @@ export default class Home extends Component {
     this.State = { status: 'inProgress' }
     return (
       <Layout>
-        <div className="container mx-auto">
+        <div className="container mx-auto text-noobdark-500">
           <section>
             <div className="md:flex md:items-center">
               <div className="md:flex-1 flex my-4 items-center flex-wrap">
                 <div className="w-full md:w-1/3">
                   <img className="w-1/3 mx-auto mb-4 md:w-full" src="/calendar.svg" />
                 </div>
-                <div
-                  className="w-full md:w-1/3 text-2xl md:text-4xl md:uppercase text-center font-bold text-noob-dark font-noobheading px-8"
-                >
-                  Projects
-                </div>
               </div>
               <div className="md:flex-1 flex text-center rounded-lg shadow-2xl bg-white">
                 <div className="flex-1">
                   <div className="p-4">
-                    <p className="font-bold text-noob-dark text-3xl md:text-5xl">1</p>
+                    <p className="font-bold text-3xl md:text-5xl">1</p>
                     <p className="text-noob-dark">
                       <i
                         className="px-2 text-sm text-blue-600 block lg:inline"
                       ><FontAwesomeIcon icon={faDotCircle} /></i>
-                      
                       In progress
                     </p>
                   </div>
                 </div>
                 <div className="flex-1">
                   <div className="p-4">
-                    <p className="font-bold text-noob-dark text-3xl md:text-5xl">0</p>
+                    <p className="font-bold text-3xl md:text-5xl">0</p>
                     <p className="text-noob-dark">
                     <i
                         className="px-2 text-sm text-red-600 block lg:inline"
@@ -51,7 +45,7 @@ export default class Home extends Component {
                 </div>
                 <div className="flex-1">
                   <div className="p-4">
-                    <p className="font-bold text-noob-dark text-3xl md:text-5xl">0</p>
+                    <p className="font-bold text-3xl md:text-5xl">0</p>
                     <p className="text-noob-dark">
                       <i
                         className="px-2 text-sm text-green-600 block lg:inline"
@@ -65,32 +59,24 @@ export default class Home extends Component {
             </div>
           </section>
           <section>
-            <h2 className="font-semibold text-4xl text-noob-dark font-noobheading my-6 mx-2">Projects</h2>
-            <div className="flex flex-wrap text-noob-dark">
+            <h2 className="font-semibold text-4xl text-noobdark-500 font-heading my-6 mx-2">Projects</h2>
+            <div className="flex flex-wrap text-noobdark-500">
               { projects.map((project, k) => (
                 <div className="flex w-full lg:w-1/3 py-2 lg:p-2" key={k}>
                   <div className="flex flex-col w-full bg-white rounded-lg px-4 py-6 shadow-2xl">
                     <p className="py-2">
-                      {/* <span className={"text-blue-600 bg-blue-100 mx-2 px-2 py-1 font-bold rounded uppercase text-sm"}>{project.status}</span> */}
                       <span className={"mx-2 px-2 py-1 font-bold rounded uppercase text-sm " + ((project.status == 'In Progress') ? ' text-blue-600 bg-blue-100' : '') + ((project.status == 'Update Required') ? ' text-red-600 bg-red-200' : '') + ((project.status == 'Finished') ? ' text-green-600 bg-green-200' : '')}>{project.status}</span>
                     </p>
-                    <h3 className="text-2xl font-semibold font-noobheading ml-3 py-2">
+                    <h3 className="font-semibold ml-3 py-2 text-lg">
                       {project.name}
                     </h3>
-                    <p className="ml-3">
+                    <p className="ml-3 text-lg text-noobdark-400">
                       {project.description}
                     </p>
                   </div>
                 </div>
               ))}
             </div>
-              {/* { projects.map((project, k) => (
-                <li key={k}>
-                  <h2>{project.name}</h2>
-                  <p>{project.description}</p>
-                  <p>{project.status}</p>
-                </li>
-              ))} */}
           </section>
         </div>
       </Layout>

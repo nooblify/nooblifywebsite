@@ -45,6 +45,9 @@ module.exports = {
           900: '#0A0B0E',
         },
       }
+    },
+    fontFamily: {
+      'heading': ['Alata'],
     }
   },
   variants: {},

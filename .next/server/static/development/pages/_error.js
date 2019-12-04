@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 4);
+/******/ 	return __webpack_require__(__webpack_require__.s = 3);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -104,52 +104,66 @@ module.exports =
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @fortawesome/free-solid-svg-icons */ "@fortawesome/free-solid-svg-icons");
+/* harmony import */ var _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__);
 var _jsxFileName = "C:\\Users\\trant\\Desktop\\My Stuffs\\Projects\\nooblify-blog\\components\\Footer.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
+
+
 const Footer = () => __jsx("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 2
+    lineNumber: 5
   },
   __self: undefined
 }, __jsx("div", {
-  className: "block text-center mx-auto py-10",
+  className: "block text-center mx-auto pb-10",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 3
+    lineNumber: 6
   },
   __self: undefined
 }, __jsx("p", {
-  className: "text-noobdark-300 font-light",
+  className: "text-noobdark-300 font-light font-heading",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
-  },
-  __self: undefined
-}, __jsx("strong", {
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 7
   },
   __self: undefined
 }, "Made with ", __jsx("i", {
-  className: "fas fa-heart text-noobpink-500",
+  className: "text-noobpink-500",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 7
   },
   __self: undefined
-}), " by ", __jsx("a", {
+}, __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
+  icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faHeart"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+}), " and ", __jsx(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_1__["FontAwesomeIcon"], {
+  icon: _fortawesome_free_solid_svg_icons__WEBPACK_IMPORTED_MODULE_2__["faFire"],
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 7
+  },
+  __self: undefined
+})), " by ", __jsx("a", {
   className: "hover:text-gray-900 text-noobpink-500 font-bold hover:underline",
   href: "https://github.com/trannguyenhb",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 4
+    lineNumber: 7
   },
   __self: undefined
-}, "Tran Nguyen")))));
+}, "Tran Nguyen"))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
 
@@ -249,9 +263,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _styles_index_css__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_styles_index_css__WEBPACK_IMPORTED_MODULE_3__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-ga */ "react-ga");
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/head */ "next/head");
+/* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
+/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "C:\\Users\\trant\\Desktop\\My Stuffs\\Projects\\nooblify-blog\\components\\MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
+
+
 
 
 
@@ -267,26 +287,46 @@ function Layout(props) {
     className: "bg-noobblue-100 text-noobdark-500",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 13
     },
     __self: this
-  }, __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 12
+      lineNumber: 14
+    },
+    __self: this
+  }, __jsx("title", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 15
+    },
+    __self: this
+  }, "Nooblify - A Collection of Mini Tech and Design Projects"), __jsx("script", {
+    type: "text/javascript",
+    src: "/js/crispchat.js",
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 16
+    },
+    __self: this
+  })), __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 18
     },
     __self: this
   }), __jsx("div", {
     className: "min-h-screen",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 19
     },
     __self: this
   }, props.children), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 22
     },
     __self: this
   }));
@@ -2105,7 +2145,7 @@ Error.getInitialProps = ({
 
 /***/ }),
 
-/***/ 4:
+/***/ 3:
 /*!*******************************!*\
   !*** multi ./pages/_error.js ***!
   \*******************************/
@@ -2114,6 +2154,28 @@ Error.getInitialProps = ({
 
 module.exports = __webpack_require__(/*! C:\Users\trant\Desktop\My Stuffs\Projects\nooblify-blog\pages\_error.js */"./pages/_error.js");
 
+
+/***/ }),
+
+/***/ "@fortawesome/free-solid-svg-icons":
+/*!****************************************************!*\
+  !*** external "@fortawesome/free-solid-svg-icons" ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@fortawesome/free-solid-svg-icons");
+
+/***/ }),
+
+/***/ "@fortawesome/react-fontawesome":
+/*!*************************************************!*\
+  !*** external "@fortawesome/react-fontawesome" ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@fortawesome/react-fontawesome");
 
 /***/ }),
 
@@ -2202,6 +2264,17 @@ module.exports = require("core-js/library/fn/promise");
 /***/ (function(module, exports) {
 
 module.exports = require("core-js/library/fn/weak-map");
+
+/***/ }),
+
+/***/ "next/head":
+/*!****************************!*\
+  !*** external "next/head" ***!
+  \****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("next/head");
 
 /***/ }),
 

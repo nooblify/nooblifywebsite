@@ -60,7 +60,7 @@ export default class Home extends Component {
           </section>
           <section>
             <h2 className="font-semibold text-4xl text-noobdark-500 font-heading my-6 mx-2">Projects</h2>
-            <div className="flex flex-wrap text-noobdark-500">
+            <div className="flex flex-wrap text-noobdark-500 mb-10">
               { projects.map((project, k) => (
                 <div className="flex w-full lg:w-1/3 py-2 lg:p-2" key={k}>
                   <div className="flex flex-col w-full bg-white rounded-lg px-4 py-6 shadow-2xl">
@@ -78,16 +78,13 @@ export default class Home extends Component {
               ))}
             </div>
           </section>
+          <section class="text-center">
+            <span class="text-noobdark-300 font-light font-heading px-1">Built with</span>
+            <img class="h-10 inline px-1" alt="NextJS" src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png"/>
+            <img class="h-6 inline px-1" alt="TailwindCSS" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"/>
+            <img class="h-10 inline px-1" alt="ManyPixels" src="https://ph-files.imgix.net/eed70b87-5ec1-47e0-a877-6a7967f1e0ec?auto=format"/>
+          </section>
         </div>
-            <div className="ref-box fixed bottom-0 right-0 bg-white rounded-lg p-3 mr-10 mb-10 shadow-2xl">
-              <div className="ref-icon"><FontAwesomeIcon icon={faInfo} /></div>
-              <div className="ref-info">
-                <span class="font-heading block pb-2">Built with</span>
-                <a href="https://nextjs.org/"><img class="h-10 inline" alt="NextJS" src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png"/></a>
-                <a href="https://tailwindcss.com/"><img class="h-6 inline" alt="TailwindCSS" src="https://ph-files.imgix.net/0ac66650-34c9-4799-9897-849528f0d975?auto=format&fit=crop&h=512&w=1024"/></a>
-                <a href="https://www.manypixels.co/"><img class="h-10 inline" alt="ManyPixels" src="https://ph-files.imgix.net/eed70b87-5ec1-47e0-a877-6a7967f1e0ec?auto=format"/></a>
-              </div>
-            </div>
       </Layout>
     )
   }

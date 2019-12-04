@@ -3,7 +3,7 @@ import content from '../content/projects.md';
 import Layout from '../components/MyLayout.js'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDotCircle } from '@fortawesome/free-solid-svg-icons';
+import { faDotCircle, faAsterisk } from '@fortawesome/free-solid-svg-icons';
 
 export default class Home extends Component {
   render() {
@@ -39,7 +39,7 @@ export default class Home extends Component {
                         className="px-2 text-sm text-red-600 block lg:inline"
                       ><FontAwesomeIcon icon={faDotCircle} />
                       </i>
-                      Updates Required
+                      Update Required
                     </p>
                   </div>
                 </div>
@@ -78,6 +78,15 @@ export default class Home extends Component {
               ))}
             </div>
           </section>
+        </div>
+        <div className="fixed bottom-0 right-0 bg-white rounded-lg p-2 mr-10 mb-10 shadow-2xl">
+            
+            <div class="showhim">
+              <FontAwesomeIcon icon={faAsterisk} />
+              <div class="showme">hai</div>
+              <div class="ok">ok</div>
+            </div>
+            <div className="hidden hover:block">asdfsadfsdafsadf</div>
         </div>
       </Layout>
     )

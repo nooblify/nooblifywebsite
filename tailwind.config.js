@@ -48,8 +48,10 @@ module.exports = {
     },
     fontFamily: {
       'heading': ['Alata'],
-    }
+    },
   },
-  variants: {},
+  variants: {
+    display: ['responsive', 'hover', 'focus'],
+  },
   plugins: []
 }

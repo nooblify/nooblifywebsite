@@ -1,9 +1,8 @@
 import React, { Component } from 'react'
 import content from '../content/projects.md';
 import Layout from '../components/MyLayout.js'
-
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDotCircle, faInfo, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
+import { faDotCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default class Home extends Component {
   render() {
@@ -78,12 +77,12 @@ export default class Home extends Component {
               ))}
             </div>
           </section>
-          <section class="text-center">
+          {/* <section class="text-center">
             <span class="text-noobdark-300 font-light font-heading px-1">Built with</span>
             <img class="h-10 inline px-1" alt="NextJS" src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png"/>
             <img class="h-6 inline px-1" alt="TailwindCSS" src="https://seeklogo.com/images/T/tailwind-css-logo-5AD4175897-seeklogo.com.png"/>
             <img class="h-10 inline px-1" alt="ManyPixels" src="https://ph-files.imgix.net/eed70b87-5ec1-47e0-a877-6a7967f1e0ec?auto=format"/>
-          </section>
+          </section> */}
         </div>
       </Layout>
     )

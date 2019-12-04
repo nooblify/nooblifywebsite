@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -265,8 +265,6 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_ga__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_ga__WEBPACK_IMPORTED_MODULE_4__);
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/head */ "next/head");
 /* harmony import */ var next_head__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_head__WEBPACK_IMPORTED_MODULE_5__);
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @fortawesome/react-fontawesome */ "@fortawesome/react-fontawesome");
-/* harmony import */ var _fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_fortawesome_react_fontawesome__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "C:\\Users\\trant\\Desktop\\My Stuffs\\Projects\\nooblify-blog\\components\\MyLayout.js";
 
 var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
@@ -275,31 +273,24 @@ var __jsx = react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement;
 
 
 
-
-
-function initializeReactGA() {
-  react_ga__WEBPACK_IMPORTED_MODULE_4___default.a.initialize('UA-153866956-1');
-  react_ga__WEBPACK_IMPORTED_MODULE_4___default.a.pageview('/homepage');
-}
-
 function Layout(props) {
   return __jsx("div", {
     className: "bg-noobblue-100 text-noobdark-500",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 13
+      lineNumber: 8
     },
     __self: this
   }, __jsx(next_head__WEBPACK_IMPORTED_MODULE_5___default.a, {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 14
+      lineNumber: 9
     },
     __self: this
   }, __jsx("title", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 15
+      lineNumber: 10
     },
     __self: this
   }, "Nooblify - A Collection of Mini Tech and Design Projects"), __jsx("script", {
@@ -307,26 +298,26 @@ function Layout(props) {
     src: "/js/crispchat.js",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 16
+      lineNumber: 11
     },
     __self: this
   })), __jsx(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 18
+      lineNumber: 13
     },
     __self: this
   }), __jsx("div", {
     className: "min-h-screen",
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 19
+      lineNumber: 14
     },
     __self: this
   }, props.children), __jsx(_Footer__WEBPACK_IMPORTED_MODULE_2__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 22
+      lineNumber: 17
     },
     __self: this
   }));
@@ -2145,7 +2136,7 @@ Error.getInitialProps = ({
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/_error.js ***!
   \*******************************/

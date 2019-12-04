@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 4);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -264,7 +264,7 @@ function initializeReactGA() {
 
 function Layout(props) {
   return __jsx("div", {
-    className: "bg-noobblue-100",
+    className: "bg-noobblue-100 text-noobdark-500",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -2105,7 +2105,7 @@ Error.getInitialProps = ({
 
 /***/ }),
 
-/***/ 3:
+/***/ 4:
 /*!*******************************!*\
   !*** multi ./pages/_error.js ***!
   \*******************************/

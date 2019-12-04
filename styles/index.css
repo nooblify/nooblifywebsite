@@ -3,12 +3,24 @@
 @tailwind utilities;
 @import url('https://fonts.googleapis.com/css?family=Alata&display=swap');
 
-.showme{ 
-display: none;
+.ref-box {
+    transition: opacity 0.1s ease, bottom 0.1s ease, width 0.3s ease, width 0.3s ease;
+    animation: fade-in 0.1s ease-in-out;
 }
-.showhim:hover .showme{
-display : block;
+
+.ref-info {
+    display: none;
 }
-.showhim:hover .ok{
-display : none;
+
+.ref-box:hover {
+    transition: opacity 0.1s ease, bottom 0.1s ease, width 0.3s ease, width 0.3s ease;
+    animation: fade-in 0.1s ease-in-out;
+}
+
+.ref-box:hover .ref-info {
+    display: block;
+}
+
+.ref-box:hover .ref-icon {
+    display: none;
 }

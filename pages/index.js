@@ -3,7 +3,7 @@ import content from '../content/projects.md';
 import Layout from '../components/MyLayout.js'
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faDotCircle, faAsterisk } from '@fortawesome/free-solid-svg-icons';
+import { faDotCircle, faInfo, faInfoCircle } from '@fortawesome/free-solid-svg-icons';
 
 export default class Home extends Component {
   render() {
@@ -79,15 +79,15 @@ export default class Home extends Component {
             </div>
           </section>
         </div>
-        <div className="fixed bottom-0 right-0 bg-white rounded-lg p-2 mr-10 mb-10 shadow-2xl">
-            
-            <div class="showhim">
-              <FontAwesomeIcon icon={faAsterisk} />
-              <div class="showme">hai</div>
-              <div class="ok">ok</div>
+            <div className="ref-box fixed bottom-0 right-0 bg-white rounded-lg p-3 mr-10 mb-10 shadow-2xl">
+              <div className="ref-icon"><FontAwesomeIcon icon={faInfo} /></div>
+              <div className="ref-info">
+                <span class="font-heading block pb-2">Built with</span>
+                <a href="https://nextjs.org/"><img class="h-10 inline" alt="NextJS" src="https://seeklogo.com/images/N/next-js-logo-7929BCD36F-seeklogo.com.png"/></a>
+                <a href="https://tailwindcss.com/"><img class="h-6 inline" alt="TailwindCSS" src="https://ph-files.imgix.net/0ac66650-34c9-4799-9897-849528f0d975?auto=format&fit=crop&h=512&w=1024"/></a>
+                <a href="https://www.manypixels.co/"><img class="h-10 inline" alt="ManyPixels" src="https://ph-files.imgix.net/eed70b87-5ec1-47e0-a877-6a7967f1e0ec?auto=format"/></a>
+              </div>
             </div>
-            <div className="hidden hover:block">asdfsadfsdafsadf</div>
-        </div>
       </Layout>
     )
   }

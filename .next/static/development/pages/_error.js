@@ -174,7 +174,7 @@ function initializeReactGA() {
 
 function Layout(props) {
   return __jsx("div", {
-    className: "bg-noobblue-100",
+    className: "bg-noobblue-100 text-noobdark-500",
     __source: {
       fileName: _jsxFileName,
       lineNumber: 11
@@ -11096,7 +11096,7 @@ Error.getInitialProps = function (_ref2) {
 
 /***/ }),
 
-/***/ 0:
+/***/ 3:
 /*!******************************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CUsers%5Ctrant%5CDesktop%5CMy%20Stuffs%5CProjects%5Cnooblify-blog%5Cpages%5C_error.js ***!
   \******************************************************************************************************************************************************************/
@@ -11119,5 +11119,5 @@ module.exports = dll_ef0ff7c60362f24a921f;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js","styles"]]]);
+},[[3,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=_error.js.map

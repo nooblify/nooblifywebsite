@@ -2,30 +2,30 @@
 title: Projects
 description: A list of mini web projects
 projects:
-  - description: Description 1
-    name: Project 1
+  - description: A Chrome Extension to type Vietnamese
+    name: GoTV
     status: In Progress
-  - description: Description 2
-    name: Project 2
-    status: Update Required
-  - description: Description 3
-    name: Project 3
-    status: Update Required
-  - description: Description 4
-    name: Project 4
-    status: Update Required
-  - description: Description 4
-    name: Project 4
-    status: Finished
-  - description: Description 5
-    name: Project 4
-    status: Finished
-  - description: Description 6
-    name: Project 4
-    status: Finished
-  - description: Description 7
-    name: Project 4
-    status: Finished
+  - description: A mobile application of common phrases to know when traveling
+    name: Alodi
+    status: In Progress
+  # - description: In Progress
+  #   name: Project 3
+  #   status: Update Required
+  # - description: Description 4
+  #   name: Project 4
+  #   status: Update Required
+  # - description: Description 4
+  #   name: Project 4
+  #   status: Finished
+  # - description: Description 5
+  #   name: Project 4
+  #   status: Finished
+  # - description: Description 6
+  #   name: Project 4
+  #   status: Finished
+  # - description: Description 7
+  #   name: Project 4
+  #   status: Finished
     
 ---
 

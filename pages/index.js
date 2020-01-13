@@ -21,7 +21,7 @@ export default class Home extends Component {
               <div className="md:flex-1 flex text-center rounded-lg shadow-2xl bg-white">
                 <div className="flex-1">
                   <div className="p-4">
-                    <p className="font-bold text-3xl md:text-5xl">1</p>
+                    <p className="font-bold text-3xl md:text-5xl">2</p>
                     <p className="text-noob-dark">
                       <i
                         className="px-2 text-sm text-blue-600 block lg:inline"

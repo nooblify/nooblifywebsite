@@ -10,7 +10,7 @@ const Header = () => (
       <div className="border-t-4 border-noobblue-500">
         <div className="flex container py-3 mx-auto">
             <div className="flex-1 ">
-                <a href="/"><img className="h-16 block mx-auto" src="/logo.svg" /></a>
+                <a href="/"><img className="h-16 block mx-auto" src="/logo.png" /></a>
             </div>
         </div>
     </div>
